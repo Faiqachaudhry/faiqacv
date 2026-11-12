@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- SEO: edit the title and description if your details change -->
+  <title>Faiqa Abbas | Video Editor & Voice-Over Artist</title>
+  <meta name="description" content="Faiqa Abbas is a video editor and voice-over artist creating reels, social media videos and creative content. View her work and get in touch.">
+  <meta name="theme-color" content="#0a0907">
+  <meta property="og:title" content="Faiqa Abbas | Video Editor & Voice-Over Artist">
+  <meta property="og:description" content="Turning ideas into visual stories.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230a0907'/%3E%3Ctext x='50' y='66' font-size='52' text-anchor='middle' fill='%23d4b97a' font-family='serif'%3EF%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- ===== HEADER / NAVIGATION ===== -->
+  <header class="site-header" id="header">
+    <a href="#home" class="logo" aria-label="Faiqa Abbas, home">Faiqa Abbas</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+      <span></span><span></span>
+    </button>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#skills">Skills</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#education">Education</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="hero-inner">
+        <div class="hero-text">
+          <p class="hero-role">Video Editor | Voice-Over Artist</p>
+          <h1>Faiqa Abbas</h1>
+          <!-- Typing effect: change the phrases in script.js -->
+          <p class="hero-tagline">“Turning Ideas Into Visual Stories.”</p>
+          <p class="hero-type">I create <span id="typed" aria-live="off"></span><span class="caret" aria-hidden="true"></span></p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-gold">Contact me</a>
+            <a href="#portfolio" class="btn btn-ghost">View my work</a>
+          </div>
+        </div>
+
+        <!-- PROFILE IMAGE: replace the monogram div with:
+             <img src="images/profile.jpg" alt="Faiqa Abbas"> -->
+        <div class="portrait glass">
+          <div class="portrait-frame"><span>FA</span></div>
+          <div class="portrait-note">Profile photo placeholder</div>
+        </div>
+      </div>
+
+      <!-- Editing timeline: the signature visual (video track + voice waveform + playhead) -->
+      <div class="timeline" aria-hidden="true">
+        <div class="track track-video"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        <div class="track track-audio" id="wave"></div>
+        <div class="playhead"></div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="section" id="about">
+      <div class="wrap about-grid">
+        <h2 class="reveal">About me</h2>
+        <div class="reveal">
+          <p class="lead">I am Faiqa Abbas, a creative and motivated Video Editor and Voice-Over Artist. I enjoy creating engaging visual content and bringing ideas to life through creative storytelling. I am continuously improving my skills and looking forward to working with clients and creative teams.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section class="section section-alt" id="services">
+      <div class="wrap">
+        <h2 class="reveal">My services</h2>
+        <div class="cards">
+          <article class="card glass reveal">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 9h18M8 5v4M16 5v4"/></svg>
+            <h3>Video editing</h3>
+            <p>Clean cuts, pacing, colour and sound that keep viewers watching to the last frame.</p>
+          </article>
+          <article class="card glass reveal">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg>
+            <h3>Reels & short-form video editing</h3>
+            <p>Vertical, fast and scroll-stopping edits made for Instagram, TikTok and Shorts.</p>
+          </article>
+          <article class="card glass reveal">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v8M8 12h8"/></svg>
+            <h3>Social media content creation</h3>
+            <p>Ready-to-post content that fits your brand and your platform.</p>
+          </article>
+          <article class="card glass reveal">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v4"/></svg>
+            <h3>Voice-over services</h3>
+            <p>A clear, warm voice for videos, ads, reels and presentations.</p>
+          </article>
+          <article class="card glass reveal">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.5 6 6.5.5-5 4.3 1.6 6.4L12 16.7 6.4 20.2 8 13.8 3 9.5 9.5 9z"/></svg>
+            <h3>Creative video content</h3>
+            <p>Original concepts and storytelling, from first idea to final export.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="section" id="skills">
+      <div class="wrap">
+        <h2 class="reveal">My skills</h2>
+        <!-- data-level = percentage filled. Change freely. -->
+        <ul class="skills">
+          <li class="reveal"><span>Video editing</span><div class="bar"><b data-level="90"></b></div></li>
+          <li class="reveal"><span>Voice-over</span><div class="bar"><b data-level="85"></b></div></li>
+          <li class="reveal"><span>Social media content</span><div class="bar"><b data-level="85"></b></div></li>
+          <li class="reveal"><span>Creative storytelling</span><div class="bar"><b data-level="88"></b></div></li>
+          <li class="reveal"><span>AI tools</span><div class="bar"><b data-level="80"></b></div></li>
+          <li class="reveal"><span>Content presentation</span><div class="bar"><b data-level="82"></b></div></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== PORTFOLIO ===== -->
+    <section class="section section-alt" id="portfolio">
+      <div class="wrap">
+        <h2 class="reveal">My portfolio</h2>
+        <p class="sub reveal">To add your own work, edit the <code>projects</code> list at the top of <code>script.js</code>.</p>
+        <div class="filters" role="group" aria-label="Filter projects">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="reels">Reels</button>
+          <button class="filter" data-filter="social">Social media videos</button>
+          <button class="filter" data-filter="other">Other editing projects</button>
+        </div>
+        <!-- Cards are generated by script.js from the projects list -->
+        <div class="gallery" id="gallery"></div>
+      </div>
+    </section>
+
+    <!-- ===== EDUCATION ===== -->
+    <section class="section" id="education">
+      <div class="wrap">
+        <h2 class="reveal">Education</h2>
+        <div class="edu">
+          <article class="glass reveal">
+            <p class="edu-status">Currently studying</p>
+            <h3>Intermediate in Computer Science (ICS)</h3>
+            <p>Allama Iqbal Open University (AIOU)</p>
+          </article>
+          <article class="glass reveal">
+            <p class="edu-status">Completed 2024</p>
+            <h3>Matriculation</h3>
+            <p>GGHS</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section section-alt" id="contact">
+      <div class="wrap contact">
+        <h2 class="reveal">Let’s work together</h2>
+        <p class="sub reveal">Have a project in mind? Send a message and I will reply soon.</p>
+        <div class="contact-links">
+          <a class="glass contact-item reveal" href="mailto:afaiqa61@gmail.com"><span>Email</span>afaiqa61@gmail.com</a>
+          <a class="glass contact-item reveal" href="https://wa.me/923137853210" target="_blank" rel="noopener"><span>WhatsApp</span>0313 7853210</a>
+          <a class="glass contact-item reveal" href="https://www.tiktok.com/@noir.emmi_?_r=1&_t=ZS-9BEZn3QEwlx" target="_blank" rel="noopener"><span>TikTok</span>@noir.emmi_</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p class="logo">Faiqa Abbas</p>
+    <p>Video Editor | Voice-Over Artist</p>
+    <p class="copy">© <span id="year">2026</span> Faiqa Abbas. All rights reserved.</p>
+  </footer>
+
+  <!-- ===== VIDEO MODAL ===== -->
+  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+    <div class="modal-box glass">
+      <button class="modal-close" id="modalClose" aria-label="Close video">×</button>
+      <div class="modal-media" id="modalMedia"></div>
+      <h3 id="modalTitle"></h3>
+      <p id="modalDesc"></p>
+    </div>
+  </div>
+
+  <!-- Floating buttons -->
+  <a class="whatsapp" href="https://wa.me/923137853210" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.7 13.6L3 21l4.5-1.2A9 9 0 1 0 12 3z"/><path d="M8.5 8.5c0 3 2.5 5.5 5.5 5.5l1.5-1.5-2-1-1 .7a4 4 0 0 1-1.9-1.9l.7-1-1-2z"/></svg>
+  </a>
+  <button class="to-top" id="toTop" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 15l6-6 6 6"/></svg></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
